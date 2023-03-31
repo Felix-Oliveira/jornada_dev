@@ -17,7 +17,7 @@
   display: flex;
 }
 
-componente .videoFooter_title {
+.videoFooter_title {
   width: 80%;
   overflow-x: hidden;
 }
