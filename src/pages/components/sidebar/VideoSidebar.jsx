@@ -14,10 +14,12 @@ function VideoSidebar({ likes, messages, shares }) {
   return (
     <div
       className='videoSidebar'
-      onClick={handdleLike}
+
 
     >
-      <div className="videoSidebar_options">
+      <div className="videoSidebar_options"
+        onClick={handdleLike}
+      >
         {liked ? <FavoriteIcon fontSize='large' /> : <FavoriteBorderIcon fontSize='large' />}
 
         <p>{liked ? likes + 1 : likes}</p>
